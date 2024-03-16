@@ -13,7 +13,7 @@ X509List cert(TELEGRAM_CERTIFICATE_ROOT);
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
 
-const int motionSensor = 14;
+const int motionSensor = 14; (ESP 8266, Pin no. D5)
 const int ledPin = LED_BUILTIN;
 bool motionDetected = false;
 
